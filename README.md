@@ -13,3 +13,5 @@ Scripts 1-3 use a combination of `wget`, `md5sum`, `csvkit`, and `awk`. The simu
 
 # Notes:
 Do whatever you want with these scripts! Please let me know if you find something interesting or substantively improve the data import/cleaning steps.
+
+If you don't want to run the scripts, you can just download `votes.zip` directly -- it contains the output of the 3rd script.
