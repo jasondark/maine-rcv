@@ -8,10 +8,10 @@ Run each sequentially-numbered script in order. The outputs of the 3rd and 4th s
 3. Codes the CSV-formatted files into a sequence of 5-character votes, denoting the ranking from left to right by the last initial of candidate. A "U" or "O" represents an undervote or overvote, respectively.
 4. Formats and tabulates the 5-string input per official ballot rules (double undervotes, overvotes, etc).
 5. Simulates the instant run-off process, outputting intermediate and final results straight to the console.
+6. Outputs data relevant for determining ranked pairs winner, along with 3 eigenvector-based rankings.
 
 # Requirements:
-Scripts 1-4 use a combination of `wget`, `md5sum`, `csvkit`, `awk`, and `sed`. The simulation uses only a base install of Python 3.
+Scripts 1-4 use a combination of `wget`, `md5sum`, `csvkit`, `awk`, and `sed`. Script 5 uses only a base install of Python 3, while script 6 requires numpy and scipy.
 
 # Notes:
 Do whatever you want with these scripts! Please let me know if you find something interesting or substantively improve the data import/cleaning steps.
-
