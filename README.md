@@ -11,7 +11,7 @@ Run each sequentially-numbered script in order. The outputs of the 3rd and 4th s
 6. Outputs data relevant for determining ranked pairs winner, along with 3 eigenvector-based rankings.
 
 # Requirements:
-Scripts 1-4 use a combination of `wget`, `md5sum`, `csvkit`, `awk`, and `sed`. Script 5 uses only a base install of Python 3, while script 6 requires numpy and scipy.
+Scripts 1-4 use a combination of `wget`, `md5sum`, `csvkit`, `awk`, and `sed`. Script 5 uses only a base install of Python 3, while script 6 requires numpy.
 
 # Notes:
 Do whatever you want with these scripts! Please let me know if you find something interesting or substantively improve the data import/cleaning steps.
